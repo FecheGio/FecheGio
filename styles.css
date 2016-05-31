@@ -1,0 +1,14 @@
+header{
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+	background-image:url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100% ; 
+	height: 100px;
+}
+.title-color {
+	color: #E5CEFA;
+	font-family: sans-serif, Helvetica;
+}
