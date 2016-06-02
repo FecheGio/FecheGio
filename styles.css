@@ -1,9 +1,9 @@
 * {
+	padding: 0;
+	margin: 0;
 	color:#817E7E;
 }
 header{
-	padding: 0;
-	margin: 0;
 	background-color: #ffffff;
 	background-image:url(images/background.jpg);
 	background-repeat: no-repeat;
@@ -20,4 +20,27 @@ header{
 .about-me{
 	width: 100%;
 	height: 200px;
+}
+footer{
+	background-color: #0D1E37;
+	text-align:center;
+	width:100%;
+	bottom:0;
+	height: 100px;
+}
+footer p{
+	color:#D4D5EC;
+	padding: 10px;
+}
+
+.fa-heart{
+	color:#F37BAB;
+}
+
+.contact-me form{
+	
+	padding:10%;
+}
+.projects{
+	padding:10%;
 }

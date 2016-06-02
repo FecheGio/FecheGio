@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
 
@@ -31,15 +32,30 @@
 
 <hr>
 
-<section class="text-center">
+<section class="projets">
 	
 	<h3>Projects</h3>
-
-	<div class="row">
-	  <div class="col-xs-12 col-sm-6 col-md-4">
-	    <div class="thumbnail">
-	      <img src="http://lorempixel.com/192/200" alt="">
-	    </div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container-fluid">
+	 <div class="col-sm-6 col-md-3">
+	    <a href="#" class="img-thumbnail">
+	      <img src="http://lorempixel.com/200/200/sports" alt="...">
+	    </a>
+	  </div>
+	 <div class="col-sm-6 col-md-3">
+		<a href="#" class="img-thumbnail">
+		  <img src="http://lorempixel.com/200/200/sports" alt="...">
+		</a>
+	 </div>
+	  <div class="col-sm-6 col-md-3">
+	    <a href="#" class="img-thumbnail">
+	      <img src="http://lorempixel.com/200/200/sports" alt="...">
+	    </a>
+	  </div>
+	    
 	  </div>
 	</div>
 
@@ -47,17 +63,55 @@
 
 <hr>
 
-<section>
-	
-	
 
+<section class="contact-me">
+ 	<div class="text-center">	
+	<form class="form-horizontal" role="form" method="post" action="index.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+		 </div>
+	</div>
+</form>
+</div>
 </section>
 
 </main>
 
 <footer>
 	
-
+   <div class="container">
+    <div class="col-xs-12">
+     <p>2016 | <a href="#">Federico Giobergia</a>&copy</p>
+      <div class="row">
+       <a href="https://twitter.com/FecheGio"><i class="fa fa-twitter-square"></i></a>
+       <a href="https://github.com/FecheGio"><i class="fa fa-github"></i></a>
+       <a href="https://www.linkedin.com/in/federico-giobergia-5b7b5b120?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square"></i></a>
+     </div>
+    </div>      
+   </div>
 
 
 </footer>
