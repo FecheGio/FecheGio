@@ -10,6 +10,7 @@ header{
 	background-position: top center;
 	background-size: 100% ; 
 	height: 150px;
+	padding:20px;
 }
 .title-color,
 .title-color  i {
@@ -41,6 +42,6 @@ footer p{
 	
 	padding:10%;
 }
-.projects{
-	padding:10%;
+.title-color{
+
 }
